@@ -24,6 +24,7 @@ public class FrequencyChart {
         int nineCt = 0; //81-90
         int tenCt = 0; //91-100
 
+        //Reading through list
         for (int num : list){
             if (num >= 0 && num <= 10){
                 oneCt++;
