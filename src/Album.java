@@ -16,7 +16,7 @@ public class Album {
     }
 
     public String toString(){
-        return "Name: " + name + "\nArtist: " + artist + "\nNumber of Songs: " + numSongs + "\nLength: " + length;
+        return "Name: " + name + " | Artist: " + artist + " | Number of Songs: " + numSongs + " | Length: " + length;
     }
 
 }

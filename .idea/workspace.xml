@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8867141d-7878-43c4-920b-eb54fd69bff0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrequencyChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrequencyChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit-6-Badnin/FrequencyChart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit-6-Badnin/FrequencyChart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MusicLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MusicLibraryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicLibraryClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,51 +19,55 @@
     <session id="-538337740">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3071" />
+          <entry key="java" value="4736" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3071" />
+          <entry key="JAVA" value="4736" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FrequencyChart.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MusicLibraryClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-906">
-              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            <state relative-caret-position="357">
+              <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MusicLibraryClient.java">
+        <entry file="file://$PROJECT_DIR$/src/MusicLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="136">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,25 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Album.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MusicLibrary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -107,11 +97,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/FrequencyChart.java" />
-        <option value="$PROJECT_DIR$/src/MusicLibraryClient.java" />
         <option value="$PROJECT_DIR$/src/Album.java" />
         <option value="$PROJECT_DIR$/src/MusicLibrary.java" />
+        <option value="$PROJECT_DIR$/src/MusicLibraryClient.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="669" />
@@ -124,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,12 +137,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581009749018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581096097030" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -163,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MusicLibraryClient">
     <configuration name="FrequencyChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FrequencyChart" />
       <module name="Unit-6-Badnin" />
@@ -171,8 +167,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MusicLibraryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MusicLibraryClient" />
+      <module name="Unit-6-Badnin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FrequencyChart" />
+      <item itemvalue="Application.MusicLibraryClient" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MusicLibraryClient" />
         <item itemvalue="Application.FrequencyChart" />
       </list>
     </recent_temporary>
@@ -194,7 +202,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -203,7 +211,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05929919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,7 +228,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32969153" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -229,37 +237,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/FrequencyChart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-906">
+        <state relative-caret-position="833">
           <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Album.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MusicLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MusicLibraryClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MusicLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
         </state>
       </provider>
     </entry>

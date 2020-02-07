@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MusicLibraryClient {
     public static void main(String[] args) {
         MusicLibrary myLibrary = new MusicLibrary();
