@@ -31,7 +31,7 @@ public class MusicLibrary {
     }
 
     public boolean remove(int index){
-        if (library[index] != null){
+        if (index >= 0 && index < library.length && library[index] != null){
             library[index] = null;
             return true;
         }
