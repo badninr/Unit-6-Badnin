@@ -15,6 +15,14 @@ public class Album {
         return length;
     }
 
+    public String getName(){
+        return name;
+    }
+
+    public String getArtist(){
+        return artist;
+    }
+
     public String toString(){
         return "Name: " + name + " | Artist: " + artist + " | Number of Songs: " + numSongs + " | Length: " + length;
     }

@@ -50,4 +50,44 @@ public class MusicLibrary {
         return result;
     }
 
+    public int findTitle(String title){
+        for (int i = 0; i < library.length; i++){
+            if (library[i]!= null && library[i].getName().equals(title)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public int findArtist(String artist){
+        for (int i = 0; i < library.length; i++){
+            if (library[i]!= null && library[i].getArtist().equals(artist)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public Album getAlbum(int index){
+        if (index >= 0 && index <= library.length) {
+            return library[index];
+        } else {
+            System.out.println("Index out of bounds");
+            return null;
+        }
+    }
+
+    public void selectionSort(){
+        for ( int i=0; i < library.length-1; i++ ){
+            int min = i;
+            for ( int k = i+1; k < library.length; k++ )
+                if (library[k].getName().compareTo(library[min].getName()) < 0 ) min = k;
+
+            String temp = library[i].getName();
+            library[i] = library[min];
+            library[min] = temp;
+        }
+    }
+
+
 }

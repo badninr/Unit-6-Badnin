@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class MusicLibraryClient {
     public static void main(String[] args) {
@@ -26,5 +25,17 @@ public class MusicLibraryClient {
         System.out.println(myLibrary);
 
         System.out.println("+++++++++++++++++++++++++++++++++++++++");
+
+        int loc = myLibrary.findTitle("First");
+        System.out.println("Found 'First' at index: " + loc);
+        System.out.println(myLibrary.getAlbum(loc));
+
+        loc = myLibrary.findTitle("Second");
+        System.out.println("Found 'Second' at index: " + loc);
+        System.out.println(myLibrary.getAlbum(loc));
+
+        System.out.println("+++++++++++++++++++++++++++++++++++++++");
+
+        myLibrary.selectionSort();
     }
 }
