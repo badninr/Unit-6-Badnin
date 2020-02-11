@@ -77,17 +77,76 @@ public class MusicLibrary {
         }
     }
 
-    public void selectionSort(){
-        for ( int i=0; i < library.length-1; i++ ){
-            int min = i;
-            for ( int k = i+1; k < library.length; k++ )
-                if (library[k].getName().compareTo(library[min].getName()) < 0 ) min = k;
+    public void sortByTitle(){
+        Album temp;
+        int min;
 
-            String temp = library[i].getName();
-            library[i] = library[min];
-            library[min] = temp;
+        for (int i = 0; i < library.length-1 ; i++) {
+            min = i;
+            for (int scan = i+1; scan < library.length ; scan++) {
+                if (library[scan] != null && library[i] != null) {
+                    if(library[scan].getName().compareToIgnoreCase(library[min].getName()) < 0){
+                        min = scan;
+                    }
+                }
+            }
+
+            temp = library[min];
+            library[min] = library[i];
+            library[i] = temp;
         }
     }
 
+    public void sortByArtist(){
+        for (int i = 0; i < library.length ; i++) {
+            Album key = library[i];
+            int position = i;
+            if (library[position] != null && key != null) {
+                while (position > 0 && library[position - 1].getArtist().compareToIgnoreCase(key.getArtist()) > 0) {
+                    library[position] = library[position - 1];
+                    position--;
+                }
+                library[position] = key;
+            }
+        }
+    }
+
+    public int binarySearchName(String target) {
+        sortByTitle();
+        int low = 0, high = library.length-1, middle = (low + high)/2;
+
+        while (!library[middle].getName().equals(target) && low <= high){
+            if (target.compareTo(library[middle].getName()) < 0)
+                high = middle - 1;
+            else
+                low = middle + 1;
+            middle = (low + high)/2;
+        }
+
+        if (library[middle].getName().equals(target))
+            return middle;
+        else
+            return -1;
+    }
+
+    public int binarySearchArtist(String target) {
+        sortByArtist();
+        int low = 0, high = library.length-1, middle = (low + high)/2;
+
+        while (!library[middle].getArtist().equals(target) && low <= high){
+            if (target.compareTo(library[middle].getArtist()) < 0)
+                high = middle - 1;
+            else
+                low = middle + 1;
+            middle = (low + high)/2;
+        }
+
+        if (library[middle].getArtist().equals(target))
+            return middle;
+        else
+            return -1;
+    }
 
 }
+
+
